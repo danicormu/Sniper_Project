@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 469fcb11d792cfc41956ea22f6b2d997
+timeCreated: 1466393500
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: arch
+    100004: brick
+    100006: brick2
+    100008: daimond2
+    100010: daimonds
+    100012: decotrim
+    100014: dkgreen
+    100016: insets
+    100018: line1
+    100020: line2
+    100022: open
+    100024: pattern1
+    100026: pattern2
+    100028: rest
+    100030: shingold
+    100032: spikes
+    100034: strip2
+    100036: stripe
+    100038: stripes
+    100040: tex
+    100042: tex2
+    100044: tex3
+    100046: white
+    100048: window
+    100050: windows
+    100052: wood
+    100054: zigzag1
+    100056: zigzag2
+    400000: //RootNode
+    400002: arch
+    400004: brick
+    400006: brick2
+    400008: daimond2
+    400010: daimonds
+    400012: decotrim
+    400014: dkgreen
+    400016: insets
+    400018: line1
+    400020: line2
+    400022: open
+    400024: pattern1
+    400026: pattern2
+    400028: rest
+    400030: shingold
+    400032: spikes
+    400034: strip2
+    400036: stripe
+    400038: stripes
+    400040: tex
+    400042: tex2
+    400044: tex3
+    400046: white
+    400048: window
+    400050: windows
+    400052: wood
+    400054: zigzag1
+    400056: zigzag2
+    2300000: arch
+    2300002: brick
+    2300004: brick2
+    2300006: daimond2
+    2300008: daimonds
+    2300010: decotrim
+    2300012: dkgreen
+    2300014: insets
+    2300016: line1
+    2300018: line2
+    2300020: open
+    2300022: pattern1
+    2300024: pattern2
+    2300026: rest
+    2300028: shingold
+    2300030: spikes
+    2300032: strip2
+    2300034: stripe
+    2300036: stripes
+    2300038: tex
+    2300040: tex2
+    2300042: tex3
+    2300044: white
+    2300046: window
+    2300048: windows
+    2300050: wood
+    2300052: zigzag1
+    2300054: zigzag2
+    3300000: arch
+    3300002: brick
+    3300004: brick2
+    3300006: daimond2
+    3300008: daimonds
+    3300010: decotrim
+    3300012: dkgreen
+    3300014: insets
+    3300016: line1
+    3300018: line2
+    3300020: open
+    3300022: pattern1
+    3300024: pattern2
+    3300026: rest
+    3300028: shingold
+    3300030: spikes
+    3300032: strip2
+    3300034: stripe
+    3300036: stripes
+    3300038: tex
+    3300040: tex2
+    3300042: tex3
+    3300044: white
+    3300046: window
+    3300048: windows
+    3300050: wood
+    3300052: zigzag1
+    3300054: zigzag2
+    4300000: shingold
+    4300002: dkgreen
+    4300004: white
+    4300006: brick
+    4300008: open
+    4300010: windows
+    4300012: decotrim
+    4300014: spikes
+    4300016: tex
+    4300018: arch
+    4300020: tex2
+    4300022: tex3
+    4300024: stripes
+    4300026: window
+    4300028: insets
+    4300030: rest
+    4300032: line2
+    4300034: line1
+    4300036: daimond2
+    4300038: daimonds
+    4300040: brick2
+    4300042: zigzag1
+    4300044: zigzag2
+    4300046: wood
+    4300048: stripe
+    4300050: strip2
+    4300052: pattern1
+    4300054: pattern2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
