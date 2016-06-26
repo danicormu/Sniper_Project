@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a30f61ce21417cf498f41fa25d477372
+guid: b4449546df5b66b4e8050418ee50c5e1
 labels:
 - AI
 - Animation
@@ -13,3 +13,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ace82679bbb02946a7f32282be3d11f
+guid: 51a1ef0edb0ace845914857c91e6aae6
 labels:
 - Example
 - Movement
@@ -11,3 +11,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

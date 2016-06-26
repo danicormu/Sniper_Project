@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12b1b14e605bba24390b9694e2d17adb
+guid: 9f1790804b3e31947a6243207736fd83
 labels:
 - Editor
 - Waypoint
@@ -11,3 +11,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

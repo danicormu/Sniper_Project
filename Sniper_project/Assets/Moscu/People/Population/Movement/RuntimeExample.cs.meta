@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d7058743f365afd40a78152e3d1212a9
+guid: 3ffddf5f0413b584b8e7453a2290c37e
 labels:
 - Example
 - Script
@@ -10,3 +10,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c23a3b67503365e4e8a6ca560b378aa3
+guid: 798673a1f727d5243b7419b3dd9e6a39
 labels:
 - Editor
 - Path
@@ -11,3 +11,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

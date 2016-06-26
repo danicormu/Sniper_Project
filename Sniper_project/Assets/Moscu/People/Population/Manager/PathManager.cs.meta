@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 80c5c48fc0793b34094b0f27c4470d6b
+guid: ff38b784c0c9b6c41950d7e0055bc3aa
 labels:
 - Path
 - Script
@@ -11,3 +11,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

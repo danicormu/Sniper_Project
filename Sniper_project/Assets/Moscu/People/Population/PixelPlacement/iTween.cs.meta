@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e6787a957ee7764469ac4492ba587778
+guid: 77dfe98258a79574885c14edfcd650b6
 labels:
 - Movement
 - AI
@@ -14,3 +14,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

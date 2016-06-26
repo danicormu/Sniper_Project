@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8c52e7bb2c004b044a5bb0cb3e5d9ecf
+guid: 92bd6dd479f44664fab56ca8d55784ac
 labels:
 - Waypoint
 - Script
@@ -11,3 +11,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

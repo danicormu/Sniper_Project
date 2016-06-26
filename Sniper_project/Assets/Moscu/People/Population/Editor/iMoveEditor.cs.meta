@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 121c926f35ed440439040478507f58e8
+guid: 8d4ccc64d65397348877cb192f958652
 labels:
 - Editor
 - Script
@@ -11,3 +11,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
