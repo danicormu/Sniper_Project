@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Multiplayer/Multiplayer.unity
+- path: Assets/Grozny/escena.unity
   isLoaded: 1
   isActive: 1
