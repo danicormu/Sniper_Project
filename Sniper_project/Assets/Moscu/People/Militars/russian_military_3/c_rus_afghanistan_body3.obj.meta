@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 76261f4930c19bb4c87ca631d91ecf2f
+timeCreated: 1466829778
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DrawCall11
+    100004: DrawCall12
+    100006: Mesh_0211
+    100008: Mesh_0212
+    100010: Mesh_0213
+    100012: Mesh_0214
+    100014: Mesh_0454
+    100016: Mesh_0457
+    100018: Mesh_0458
+    100020: Mesh_0459
+    100022: Mesh_0460
+    100024: Mesh_0461
+    100026: Mesh_0472
+    100028: Mesh_0474
+    100030: Mesh_0475
+    100032: Mesh_0477
+    100034: Mesh_0479
+    100036: Mesh_0481
+    100038: Mesh_0484
+    100040: Mesh_0486
+    100042: Mesh_0553
+    100044: Mesh_0554
+    400000: //RootNode
+    400002: DrawCall11
+    400004: DrawCall12
+    400006: Mesh_0211
+    400008: Mesh_0212
+    400010: Mesh_0213
+    400012: Mesh_0214
+    400014: Mesh_0454
+    400016: Mesh_0457
+    400018: Mesh_0458
+    400020: Mesh_0459
+    400022: Mesh_0460
+    400024: Mesh_0461
+    400026: Mesh_0472
+    400028: Mesh_0474
+    400030: Mesh_0475
+    400032: Mesh_0477
+    400034: Mesh_0479
+    400036: Mesh_0481
+    400038: Mesh_0484
+    400040: Mesh_0486
+    400042: Mesh_0553
+    400044: Mesh_0554
+    2300000: DrawCall11
+    2300002: DrawCall12
+    2300004: Mesh_0211
+    2300006: Mesh_0212
+    2300008: Mesh_0213
+    2300010: Mesh_0214
+    2300012: Mesh_0454
+    2300014: Mesh_0457
+    2300016: Mesh_0458
+    2300018: Mesh_0459
+    2300020: Mesh_0460
+    2300022: Mesh_0461
+    2300024: Mesh_0472
+    2300026: Mesh_0474
+    2300028: Mesh_0475
+    2300030: Mesh_0477
+    2300032: Mesh_0479
+    2300034: Mesh_0481
+    2300036: Mesh_0484
+    2300038: Mesh_0486
+    2300040: Mesh_0553
+    2300042: Mesh_0554
+    3300000: DrawCall11
+    3300002: DrawCall12
+    3300004: Mesh_0211
+    3300006: Mesh_0212
+    3300008: Mesh_0213
+    3300010: Mesh_0214
+    3300012: Mesh_0454
+    3300014: Mesh_0457
+    3300016: Mesh_0458
+    3300018: Mesh_0459
+    3300020: Mesh_0460
+    3300022: Mesh_0461
+    3300024: Mesh_0472
+    3300026: Mesh_0474
+    3300028: Mesh_0475
+    3300030: Mesh_0477
+    3300032: Mesh_0479
+    3300034: Mesh_0481
+    3300036: Mesh_0484
+    3300038: Mesh_0486
+    3300040: Mesh_0553
+    3300042: Mesh_0554
+    4300000: DrawCall11
+    4300002: DrawCall12
+    4300004: Mesh_0211
+    4300006: Mesh_0212
+    4300008: Mesh_0213
+    4300010: Mesh_0214
+    4300012: Mesh_0454
+    4300014: Mesh_0457
+    4300016: Mesh_0458
+    4300018: Mesh_0459
+    4300020: Mesh_0460
+    4300022: Mesh_0461
+    4300024: Mesh_0472
+    4300026: Mesh_0474
+    4300028: Mesh_0475
+    4300030: Mesh_0477
+    4300032: Mesh_0479
+    4300034: Mesh_0481
+    4300036: Mesh_0484
+    4300038: Mesh_0486
+    4300040: Mesh_0553
+    4300042: Mesh_0554
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''c_rus_afghanistan_body3'' conversion failed: Required human
+      bone ''Hips'' not found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton:
+    - name: c_rus_afghanistan_body3(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall11
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall12
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0211
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0212
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0213
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0214
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0454
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0457
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0458
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0459
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0460
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0461
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0472
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0474
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0475
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0477
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0479
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0481
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0484
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0486
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0553
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh_0554
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
