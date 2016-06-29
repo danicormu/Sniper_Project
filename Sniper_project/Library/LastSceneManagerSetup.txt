@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ginebra/Ginebra.unity
+- path: Assets/Moscu/Scenerio3.unity
   isLoaded: 1
   isActive: 1
