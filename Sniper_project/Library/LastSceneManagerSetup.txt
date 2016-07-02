@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/HeadQuarter/HeadQuarter.unity
+- path: Assets/Ginebra/Ginebra.unity
   isLoaded: 1
   isActive: 1
