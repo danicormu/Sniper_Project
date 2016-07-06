@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: c17129058a4f3fe478ac212a0e0662fc
+timeCreated: 1467438331
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Alder__0
+    100002: Alder__0_MeshPart0
+    100004: Alder__0_MeshPart1
+    100006: Alder__1
+    100008: HD_Lime0
+    100010: HD_Lime0_MeshPart0
+    100012: HD_Lime0_MeshPart1
+    100014: HD_Lime1
+    100016: HD_Lime1_MeshPart0
+    100018: HD_Lime1_MeshPart1
+    100020: HD_Lime2
+    100022: HD_Lime3
+    100024: Large_E0
+    100026: Large_E0_MeshPart0
+    100028: Large_E0_MeshPart1
+    100030: Large_E1
+    100032: Large_E1_MeshPart0
+    100034: Large_E1_MeshPart1
+    100036: Large_E2
+    100038: Large_E2_MeshPart0
+    100040: Large_E2_MeshPart1
+    100042: Large_E3
+    100044: Large_E4
+    100046: Large_E4_MeshPart0
+    100048: Large_E4_MeshPart1
+    100050: Large_E5
+    100052: Leafles0
+    100054: Leafles1
+    100056: Leafles2
+    100058: Leafles3
+    100060: Lombardy
+    100062: //RootNode
+    400000: Alder__0
+    400002: Alder__0_MeshPart0
+    400004: Alder__0_MeshPart1
+    400006: Alder__1
+    400008: HD_Lime0
+    400010: HD_Lime0_MeshPart0
+    400012: HD_Lime0_MeshPart1
+    400014: HD_Lime1
+    400016: HD_Lime1_MeshPart0
+    400018: HD_Lime1_MeshPart1
+    400020: HD_Lime2
+    400022: HD_Lime3
+    400024: Large_E0
+    400026: Large_E0_MeshPart0
+    400028: Large_E0_MeshPart1
+    400030: Large_E1
+    400032: Large_E1_MeshPart0
+    400034: Large_E1_MeshPart1
+    400036: Large_E2
+    400038: Large_E2_MeshPart0
+    400040: Large_E2_MeshPart1
+    400042: Large_E3
+    400044: Large_E4
+    400046: Large_E4_MeshPart0
+    400048: Large_E4_MeshPart1
+    400050: Large_E5
+    400052: Leafles0
+    400054: Leafles1
+    400056: Leafles2
+    400058: Leafles3
+    400060: Lombardy
+    400062: //RootNode
+    2300000: Alder__0_MeshPart0
+    2300002: Alder__0_MeshPart1
+    2300004: Alder__1
+    2300006: HD_Lime0_MeshPart0
+    2300008: HD_Lime0_MeshPart1
+    2300010: HD_Lime1_MeshPart0
+    2300012: HD_Lime1_MeshPart1
+    2300014: HD_Lime2
+    2300016: HD_Lime3
+    2300018: Large_E0_MeshPart0
+    2300020: Large_E0_MeshPart1
+    2300022: Large_E1_MeshPart0
+    2300024: Large_E1_MeshPart1
+    2300026: Large_E2_MeshPart0
+    2300028: Large_E2_MeshPart1
+    2300030: Large_E3
+    2300032: Large_E4_MeshPart0
+    2300034: Large_E4_MeshPart1
+    2300036: Large_E5
+    2300038: Leafles0
+    2300040: Leafles1
+    2300042: Leafles2
+    2300044: Leafles3
+    2300046: Lombardy
+    3300000: Alder__0_MeshPart0
+    3300002: Alder__0_MeshPart1
+    3300004: Alder__1
+    3300006: HD_Lime0_MeshPart0
+    3300008: HD_Lime0_MeshPart1
+    3300010: HD_Lime1_MeshPart0
+    3300012: HD_Lime1_MeshPart1
+    3300014: HD_Lime2
+    3300016: HD_Lime3
+    3300018: Large_E0_MeshPart0
+    3300020: Large_E0_MeshPart1
+    3300022: Large_E1_MeshPart0
+    3300024: Large_E1_MeshPart1
+    3300026: Large_E2_MeshPart0
+    3300028: Large_E2_MeshPart1
+    3300030: Large_E3
+    3300032: Large_E4_MeshPart0
+    3300034: Large_E4_MeshPart1
+    3300036: Large_E5
+    3300038: Leafles0
+    3300040: Leafles1
+    3300042: Leafles2
+    3300044: Leafles3
+    3300046: Lombardy
+    4300000: Large_E0_MeshPart0
+    4300002: Large_E0_MeshPart1
+    4300004: Large_E1_MeshPart0
+    4300006: Large_E1_MeshPart1
+    4300008: Large_E2_MeshPart0
+    4300010: Large_E2_MeshPart1
+    4300012: Alder__0_MeshPart0
+    4300014: Alder__0_MeshPart1
+    4300016: Leafles0
+    4300018: Leafles1
+    4300020: Leafles2
+    4300022: Leafles3
+    4300024: HD_Lime0_MeshPart0
+    4300026: HD_Lime0_MeshPart1
+    4300028: HD_Lime1_MeshPart0
+    4300030: HD_Lime1_MeshPart1
+    4300032: Lombardy
+    4300034: Large_E3
+    4300036: Large_E4_MeshPart0
+    4300038: Large_E4_MeshPart1
+    4300040: Large_E5
+    4300042: Alder__1
+    4300044: HD_Lime2
+    4300046: HD_Lime3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

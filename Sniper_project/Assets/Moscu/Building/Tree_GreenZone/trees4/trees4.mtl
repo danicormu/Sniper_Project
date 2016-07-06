@@ -1,0 +1,28 @@
+newmtl Trunk_Bottom
+Ka 0 0 0
+Ns 8.16617
+Ks 1 1 1
+Kd 0.355236 0.346845 0.279915
+map_Kd Trunk_Bottom.jpg
+map_Bump Trunk_Bottom_b.jpg
+newmtl Bottom_Trunk
+Ka 0 0 0
+Ns 1.1275
+Ks 1 1 1
+Kd 0.3528 0.385785 0.33814
+map_Kd Bottom_Trunk_1.jpg
+map_Bump Bottom_Trunk_b_1.jpg
+newmtl Roots0
+Ka 0 0 0
+Ns 8.16617
+Ks 1 1 1
+Kd 0.24005 0.242009 0.212556
+map_Kd Roots0_2.jpg
+map_Bump Roots_b0_2.jpg
+newmtl Roots1
+Ka 0 0 0
+Ns 8.16617
+Ks 1 1 1
+Kd 0.24005 0.242009 0.212556
+map_Kd Roots1_3.jpg
+map_Bump Roots_b1_3.jpg
