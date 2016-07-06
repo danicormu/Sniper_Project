@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
 public class Payment : MonoBehaviour {
 
@@ -8,7 +9,8 @@ public class Payment : MonoBehaviour {
     public Text CVV;
     public Text CardNumber;
     public Text BillingAdd;
-    public Text expDate;
+    public Text expDateMonth;
+    public Text expDateYear; 
     public GameObject message;
     public GameObject store;
     public GameObject buyItem;
@@ -45,8 +47,8 @@ public class Payment : MonoBehaviour {
 
     public void BuyOnClick() 
     {
-        if (CardNumber.text != "" && expDate.text != "" && CVV.text != "" && BillingAdd.text != "")
-            message.SetActive(true);
+        if (CardNumber.text != "" && expDateMonth.text != "" && expDateYear.text != "" && CVV.text != "" && BillingAdd.text != "")
+                message.SetActive(true);
        
     }
 
@@ -62,6 +64,5 @@ public class Payment : MonoBehaviour {
         buyItem.SetActive(false);
         store.SetActive(true);
     }
-	
 
 }
