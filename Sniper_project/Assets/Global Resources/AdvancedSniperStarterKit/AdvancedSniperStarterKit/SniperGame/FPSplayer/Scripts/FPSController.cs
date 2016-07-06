@@ -152,9 +152,9 @@ public class FPSController : MonoBehaviour
 	
 	public void Aim (Vector2 direction)
 	{
-		#if UNITY_EDITOR || UNITY_WEBPLAYER || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX
-		MouseLock.MouseLocked = true;
-		#endif
+		//#if UNITY_EDITOR || UNITY_WEBPLAYER || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX
+		//MouseLock.MouseLocked = true;
+		//#endif
 		mouseDirection = direction;	
 		
 	}
