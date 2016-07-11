@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Grozny/escena.unity
+- path: Assets/Global Resources/AdvancedSniperStarterKit/AdvancedSniperStarterKit/SniperGame/Demo.unity
   isLoaded: 1
   isActive: 1
