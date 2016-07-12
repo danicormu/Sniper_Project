@@ -97,7 +97,7 @@ public class ScoreManager : MonoBehaviour
         if (clockTimer <= 0)
         {
             PauseGame();
-            Cursor.visible = true;
+            MouseLock.MouseLocked = false;
             myScore = Score.ToString();
             GUI.skin.label.fontSize = 20;
             GUI.Label(new Rect(100, 100, 300, 40), "Your score: " + myScore);
