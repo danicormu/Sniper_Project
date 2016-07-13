@@ -78,7 +78,7 @@ public class Navigation : MonoBehaviour {
 
     // variables
     string itemNameVar;
-    string itemPriceVar;
+    //string itemPriceVar;
 
 
     void Start() 
@@ -92,7 +92,7 @@ public class Navigation : MonoBehaviour {
     void Update() 
     {
         itemNameVar = itemName.text;
-        itemPriceVar = itemPrice.text;
+        //itemPriceVar = itemPrice.text;
     }
 
     //Rifle Parameter Passing Methods

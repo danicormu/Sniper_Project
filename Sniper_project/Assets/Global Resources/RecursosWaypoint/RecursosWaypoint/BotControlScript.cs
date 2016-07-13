@@ -76,7 +76,7 @@ public class BotControlScript : MonoBehaviour
 		// STANDARD JUMPING
 		
 		// if we are currently in a state called Locomotion (see line 25), then allow Jump input (Space) to set the Jump bool parameter in the Animator to true
-		if (currentBaseState.nameHash == locoState)
+		if (currentBaseState.fullPathHash == locoState)
 		{
 			if(Input.GetButtonDown("Jump"))
 			{
@@ -85,7 +85,7 @@ public class BotControlScript : MonoBehaviour
 		}
 		
 		// if we are in the jumping state... 
-		else if(currentBaseState.nameHash == jumpState)
+		else if(currentBaseState.fullPathHash == jumpState)
 		{
 			//  ..and not still in transition..
 			if(!anim.IsInTransition(0))
@@ -121,7 +121,7 @@ public class BotControlScript : MonoBehaviour
 		
 		// if we are jumping down, set our Collider's Y position to the float curve from the animation clip - 
 		// this is a slight lowering so that the collider hits the floor as the character extends his legs
-		else if (currentBaseState.nameHash == jumpDownState)
+		else if (currentBaseState.fullPathHash == jumpDownState)
 		{
 			col.center = new Vector3(0, anim.GetFloat("ColliderY"), 0);
 		}
@@ -129,7 +129,7 @@ public class BotControlScript : MonoBehaviour
 		// if we are falling, set our Grounded boolean to true when our character's root 
 		// position is less that 0.6, this allows us to transition from fall into roll and run
 		// we then set the Collider's Height equal to the float curve from the animation clip
-		else if (currentBaseState.nameHash == fallState)
+		else if (currentBaseState.fullPathHash == fallState)
 		{
 			col.height = anim.GetFloat("ColliderHeight");
 		}
@@ -138,7 +138,7 @@ public class BotControlScript : MonoBehaviour
 		// this ensures we are in a short spherical capsule height during the roll, so we can smash through the lower
 		// boxes, and then extends the collider as we come out of the roll
 		// we also moderate the Y position of the collider using another of these curves on line 128
-		else if (currentBaseState.nameHash == rollState)
+		else if (currentBaseState.fullPathHash == rollState)
 		{
 			if(!anim.IsInTransition(0))
 			{
@@ -152,7 +152,7 @@ public class BotControlScript : MonoBehaviour
 		// IDLE
 		
 		// check if we are at idle, if so, let us Wave!
-		else if (currentBaseState.nameHash == idleState)
+		else if (currentBaseState.fullPathHash == idleState)
 		{
 			if(Input.GetButtonUp("Jump"))
 			{
@@ -160,7 +160,7 @@ public class BotControlScript : MonoBehaviour
 			}
 		}
 		// if we enter the waving state, reset the bool to let us wave again in future
-		if(layer2CurrentState.nameHash == waveState)
+		if(layer2CurrentState.fullPathHash == waveState)
 		{
 			anim.SetBool("Wave", false);
 		}

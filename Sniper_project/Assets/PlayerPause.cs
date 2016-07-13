@@ -15,15 +15,15 @@ public class PlayerPause : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Escape) && Time.timeScale == 1) {
 			MouseLock.MouseLocked = false;
-            //for (int i = 0; i < components.Length; i++)
-               // components[i].enabled = false;
+            for (int i = 0; i < components.Length; i++)
+                components[i].enabled = false;
             pauseMenu.SetActive(true);
 			Time.timeScale = 0;
 		} else if (Time.timeScale == 0 && Input.GetKeyDown (KeyCode.Escape)) {
 			pauseMenu.SetActive (false);
 			MouseLock.MouseLocked = true;
-            //for (int i = 0; i < components.Length; i++)
-                //components[i].enabled = true;
+            for (int i = 0; i < components.Length; i++)
+                components[i].enabled = true;
 			Time.timeScale = 1;
 		}
 	}
@@ -32,11 +32,15 @@ public class PlayerPause : MonoBehaviour {
     {
         pauseMenu.SetActive(false);
         MouseLock.MouseLocked = true;
+        for (int i = 0; i < components.Length; i++)
+            components[i].enabled = true;
         Time.timeScale = 1;
     }
 
     public void QuitGame() 
     {
+        for (int i = 0; i < components.Length; i++)
+            components[i].enabled = true;
         SceneManager.LoadScene("HeadQuarter");
     }
 }
