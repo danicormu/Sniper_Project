@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Global Resources/AdvancedSniperStarterKit/AdvancedSniperStarterKit/SniperGame/Demo.unity
+- path: Assets/Ginebra/Ginebra.unity
   isLoaded: 1
   isActive: 1
