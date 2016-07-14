@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
 
+    public Behaviour[] disablingComponents;
     public GUISkin skin;
     public int Score;
     public float BestDistance;
@@ -43,6 +44,7 @@ public class ScoreManager : MonoBehaviour
 
     private void PauseGame()
     {
+        MouseLock.MouseLocked = false;
         Time.timeScale = 0;
     }
 
@@ -97,16 +99,22 @@ public class ScoreManager : MonoBehaviour
         if (clockTimer <= 0)
         {
             PauseGame();
-            MouseLock.MouseLocked = false;
             myScore = Score.ToString();
             GUI.skin.label.fontSize = 20;
             GUI.Label(new Rect(100, 100, 300, 40), "Your score: " + myScore);
             GUI.Label(new Rect(100, 130, 300, 40), "Oponent Score: " + "Score");
             GUI.Label(new Rect(100, 160 , 300, 40), "winner: " + "Player");
-            if (GUI.Button(new Rect(100, 190, 100, 30), "Play Again"))
+            if (GUI.Button(new Rect(100, 190, 100, 30), "Play Again")) 
+            {
+                MouseLock.MouseLocked = true;
                 SceneManager.LoadScene("Multiplayer");
-            if (GUI.Button(new Rect(210, 190, 60, 30), "Quit"))
+            }
+
+            if (GUI.Button(new Rect(210, 190, 60, 30), "Quit")) 
+            {
+                Time.timeScale = 1;
                 SceneManager.LoadScene("MainMenu");
+            }
         }
     }
 }
