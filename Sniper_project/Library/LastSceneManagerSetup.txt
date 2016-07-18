@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Moscu/Scenerio3.unity
+- path: Assets/Multiplayer/Multiplayer.unity
   isLoaded: 1
   isActive: 1
