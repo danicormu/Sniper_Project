@@ -693,7 +693,7 @@ public static class LevelSerializer
     /// </summary>
     public static void SaveDataToPlayerPrefs()
     {
-        PlayerPrefs.SetString("_Save_Game_Data_", Convert.ToBase64String(UnitySerializer.Serialize(SavedGames)));
+        //PlayerPrefs.SetString("_Save_Game_Data_", Convert.ToBase64String(UnitySerializer.Serialize(SavedGames)));
 		PlayerPrefs.Save();
     }
 
