@@ -5,19 +5,25 @@ using System.Collections;
 [RequireComponent(typeof(CharacterController))]
 public class EnemyAttack : MonoBehaviour {
 
+    public int currentHealth;
     public float GravityMult = 1;
     public float Slip = 10;
+    public float speed = 25;
     private float fallvelocity = 0;
     private Vector3 moveDirection;
-
+    public float attackCD = 0.0f;
+    private float attackCDLeft;
+    player playerHealth;
     public Transform Myself;
     public float Speed = 3;
     public AudioClip[] footstepSound;
     public Vector3 targetPosition;
     public int timethink = 0;
-    public string RunPose = "Run";
-    public string IdlePose = "Idle";
+    public string RunPose = "WalkForward";
+    public string IdlePose = "Idle1";
     public string shoot = "ShootStraight";
+    public string persuit = "RunForward";
+    private GameObject playerToKill; 
     private int state = 0;
     private CharacterController characterController;
 
@@ -33,11 +39,14 @@ public class EnemyAttack : MonoBehaviour {
 
         characterController = this.GetComponent<CharacterController>();
         Myself.GetComponent<Animation>().PlayQueued(IdlePose);
+        playerToKill = GameObject.FindGameObjectWithTag("Player");
+        playerHealth = playerToKill.GetComponent<player>();
 	}
+
 	
 	// Update is called once per frame
 	void Update () {
-	
+        Debug.Log(playerHealth.currentHealth);
         playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
         enemyPosition = this.transform.position;
 		if (timethink <= 0) {
@@ -49,25 +58,23 @@ public class EnemyAttack : MonoBehaviour {
 		}
 		
    		isGrounded = GroundChecking ();
-		
 		targetPosition.y = transform.position.y;
 		Quaternion rotationTarget = Quaternion.LookRotation ((targetPosition - this.transform.position).normalized);
 		transform.rotation = Quaternion.Lerp (this.transform.rotation, rotationTarget, Time.deltaTime * 5);
 
         // if que me permite saber si la el player esta cerca o no
-        Debug.Log(Vector3.Distance(enemyPosition, playerPosition));
         if (Vector3.Distance(enemyPosition, playerPosition) < 60)
         {
-            Debug.Log(Vector3.Distance(enemyPosition, playerPosition));
-            Myself.GetComponent<Animation>().CrossFade(RunPose, 0.5f);
+            Myself.GetComponent<Animation>().CrossFade(persuit, 0.5f);
             targetPosition = playerPosition;
             rotationTarget = Quaternion.LookRotation((targetPosition - this.transform.position).normalized);
             transform.rotation = Quaternion.Lerp(this.transform.rotation, rotationTarget, Time.deltaTime * 5);
             Vector3 direction = (targetPosition - transform.position).normalized;
-            moveDirection = Vector3.Lerp(moveDirection, direction, Time.deltaTime * Slip);
+            moveDirection = Vector3.Lerp(moveDirection, direction, Time.deltaTime * speed);
             if (Vector3.Distance(enemyPosition, playerPosition) < 30)
             {
                 Myself.GetComponent<Animation>().CrossFade(shoot, 0.2f);
+                attack();
                 targetPosition = playerPosition;
                 rotationTarget = Quaternion.LookRotation((targetPosition - this.transform.position).normalized);
                 transform.rotation = Quaternion.Lerp(this.transform.rotation, rotationTarget, Time.deltaTime * 5);
@@ -90,6 +97,8 @@ public class EnemyAttack : MonoBehaviour {
                     break;
             }
         }
+        if (attackCDLeft > 0.0f)
+            attackCDLeft -= Time.deltaTime;
 
 
 		
@@ -121,5 +130,14 @@ public class EnemyAttack : MonoBehaviour {
         }
         return false;
 
+    }
+
+    public void attack()
+    {
+        if (attackCDLeft <= 0.0f)
+        {
+            playerHealth.loseHealth(3);
+            attackCDLeft = attackCD;
+        }
     }
 }

@@ -12,7 +12,9 @@ public class player : MonoBehaviour {
 	AudioSource playerAudio;
 	bool isDamaged;
 	bool isDeath;
-
+    public GameObject GameOverMenu;
+    public GameObject GameOverScene;
+    public Camera GameOverCamera;
 	public Slider healthSlider;
 	public Image damageImage;
 	public float flashSpeed = 5f;
@@ -25,11 +27,13 @@ public class player : MonoBehaviour {
 		currentHealth = maxHealth;
 		playerAudio = GetComponent<AudioSource> ();
 		attackCDLeft = attackCD;
+        GameOverMenu.SetActive(false);
+        GameOverScene.SetActive(false);
 		}
 
 	// Update is called once per frame
 	void Update () {
-		isDead ();
+		    //isDead ();
 
 		if (isDamaged && !isDeath) {
 			damageImage.color = flashColor;
@@ -51,7 +55,7 @@ public class player : MonoBehaviour {
 		if (Input.GetMouseButtonDown (0)) {	
 			if (getNearEnemy () != null) {
 				if (Vector3.Distance (transform.position, getNearEnemy ().transform.position) <= attackRange) {
-						killEnemy ();
+						//killEnemy ();
 						attackCDLeft = attackCD;	
 				}
 			}
@@ -68,29 +72,35 @@ public class player : MonoBehaviour {
 		return nearest;
 	}
 
-	public void loseHealth(int damage){
-	if (getNearEnemy().GetComponent<Enemy_Script> ().currentHealth > 0) {
-			isDamaged = true;
-			playerAudio.Play ();
-			currentHealth -= damage;
-			healthSlider.value = currentHealth;
-		}
-	}
+    public void loseHealth(int damage)
+    {
+        isDamaged = true;
+        playerAudio.Play();
+        currentHealth -= damage;
+        healthSlider.value = currentHealth;
+        if (currentHealth <= 0f)
+            isDead();
 
-	void killEnemy(){
-		if(attackCDLeft <= 2.5f){
-			getNearEnemy ().GetComponent<Enemy_Script> ().loseHealth(5);
-		}
+        
+    }
 
-	}
+    //void killEnemy(){
+    //    if(attackCDLeft <= 2.5f){
+    //        getNearEnemy ().GetComponent<EnemyAttack> ().loseHealth(5);
+    //    }
+
+    //}
 
 	void isDead(){
-		if (currentHealth <= 0.0f) {
-			isDeath = true;
-			playerAudio.clip = deathClip;
-			playerAudio.Play ();
-			Destroy (this.gameObject);
-		}
+		
+        isDeath = true;
+		playerAudio.clip = deathClip;
+		playerAudio.Play ();
+        Destroy (this.gameObject);
+        GameOverScene.SetActive(true);
+        GameOverCamera =Camera.main;
+        GameOverMenu.SetActive(true);
+        MouseLock.MouseLocked = false;
 	}
 		
-	}
+}
