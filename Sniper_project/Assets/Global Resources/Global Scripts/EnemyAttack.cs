@@ -46,7 +46,6 @@ public class EnemyAttack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(playerHealth.currentHealth);
         playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
         enemyPosition = this.transform.position;
 		if (timethink <= 0) {
