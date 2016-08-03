@@ -24,12 +24,12 @@ function newGame()
 
 function ginger()
 {
-    Application.LoadLevel("IntroGinebra");
+    Application.LoadLevel("Ginebra");
 }
 
 function moscou()
 {
-    Application.LoadLevel("IntroMoscu");
+    Application.LoadLevel("Scenerio3");
 }
 
 function grozny()
