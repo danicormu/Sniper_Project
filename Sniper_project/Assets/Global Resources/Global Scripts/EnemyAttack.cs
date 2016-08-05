@@ -11,8 +11,7 @@ public class EnemyAttack : MonoBehaviour {
     public float speed = 25;
     private float fallvelocity = 0;
     private Vector3 moveDirection;
-    public float attackCD = 0.0f;
-    private float attackCDLeft;
+    public float attackCD = 5f;
     player playerHealth;
     public Transform Myself;
     public float Speed = 3;
@@ -30,6 +29,7 @@ public class EnemyAttack : MonoBehaviour {
     // Esto que sigue es para ver si el enemigo me ataca a mi.
     public Vector3 playerPosition;
     public Vector3 enemyPosition;
+    public float coolDown = 5f;
 
 	// Use this for initialization
 	void Start () {
@@ -60,7 +60,7 @@ public class EnemyAttack : MonoBehaviour {
 		targetPosition.y = transform.position.y;
 		Quaternion rotationTarget = Quaternion.LookRotation ((targetPosition - this.transform.position).normalized);
 		transform.rotation = Quaternion.Lerp (this.transform.rotation, rotationTarget, Time.deltaTime * 5);
-
+        coolDown -= Time.deltaTime;
         // if que me permite saber si la el player esta cerca o no
         if (Vector3.Distance(enemyPosition, playerPosition) < 60)
         {
@@ -73,12 +73,13 @@ public class EnemyAttack : MonoBehaviour {
             if (Vector3.Distance(enemyPosition, playerPosition) < 30)
             {
                 Myself.GetComponent<Animation>().CrossFade(shoot, 0.2f);
-                attack();
                 targetPosition = playerPosition;
                 rotationTarget = Quaternion.LookRotation((targetPosition - this.transform.position).normalized);
                 transform.rotation = Quaternion.Lerp(this.transform.rotation, rotationTarget, Time.deltaTime * 5);
                 direction = (targetPosition - transform.position).normalized;
                 moveDirection = Vector3.zero;
+                if (coolDown <= 0.0f)
+                    attack();
             }
         }
         else 
@@ -96,8 +97,7 @@ public class EnemyAttack : MonoBehaviour {
                     break;
             }
         }
-        if (attackCDLeft > 0.0f)
-            attackCDLeft -= Time.deltaTime;
+
 
 
 		
@@ -109,6 +109,8 @@ public class EnemyAttack : MonoBehaviour {
         {
             fallvelocity -= 90 * GravityMult * Time.deltaTime;
         }
+        if (coolDown < 0.0f)
+            coolDown = 3f;
 	}
 
 
@@ -133,10 +135,7 @@ public class EnemyAttack : MonoBehaviour {
 
     public void attack()
     {
-        if (attackCDLeft <= 0.0f)
-        {
-            playerHealth.loseHealth(3);
-            attackCDLeft = attackCD;
-        }
+        playerHealth.loseHealth(3);
+        coolDown = 3f;
     }
 }
